@@ -152,7 +152,7 @@ textarea {
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 @media only screen and (max-width: 37.5em) {
   .heading-sec__sub {
@@ -277,7 +277,7 @@ textarea {
   }
 }
 .home-hero__socials {
-  position: absolute;
+  position: fixed;
   top: 50%;
   border: 2px solid rgb(224, 221, 221);
   border-left: 2px solid rgb(212, 210, 210);
@@ -706,7 +706,7 @@ textarea {
 }
 
 .main-footer {
-  background: #000;
+  background: rgb(43, 41, 41);
   color: #fff;
 }
 .main-footer__upper {
@@ -757,6 +757,9 @@ textarea {
 }
 .main-footer__icon--mr-none {
   margin-right: 0;
+}
+.main-footer__row main-footer__row-2 {
+  border: 4px solid red;
 }
 .main-footer__lower {
   padding: 4rem 0;
@@ -832,6 +835,8 @@ textarea {
 
 .pic {
   width: 30%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
 }
 .bigbasket,
 .fragrance {
